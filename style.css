@@ -1,0 +1,271 @@
+body
+{
+    background-color:#bbf2a5;
+    color:#374731; 
+}
+
+div.doclist
+{
+    float:left;
+    text-align:center;
+    width:350px;
+    padding:10px;
+    margin:10px;
+}
+
+div.newdoctor
+{
+float:right;
+width:450px;
+padding:10px;
+margin-left:100px;
+margin-right:100px;
+}
+
+div.newtransact
+{
+    float:left;
+    width:350px;
+}
+
+div.maxtransact
+{
+    float:left;
+    clear:left;
+}
+
+div.newfactura
+{
+    float:left;
+    width:350px;
+    padding:10px;
+    padding-bottom:0px;
+    margin:0px;
+}
+
+div.info_doctor
+{
+    padding:5px;
+    margin:0px;
+}
+
+div.datos_doctor
+{
+    margin:5px;
+    text-align:center;
+}
+
+div.header
+{
+    text-align:right;
+    position:center;
+    font-size:1.1em;
+    letter-spacing:5px;
+}
+
+div.opciones
+{
+list-style-type:none;
+margin:0px;
+padding-left:300px;
+font-weight:bold;
+color:#FFFFFF;
+background-color:#98bf21;
+text-align:center;
+padding:5px;
+padding-right:30px;
+padding-left:30px;
+text-decoration:none;
+text-transform:uppercase;
+}
+
+.opciones li
+{
+    display:inline;
+}
+
+.opciones a:link
+{
+font-weight:bold;
+color:#FFFFFF;
+background-color:#98bf21;
+text-align:center;
+padding:5px;
+padding-right:30px;
+padding-left:30px;
+text-decoration:none;
+text-transform:uppercase;
+}
+.opciones a:hover,a:active
+{
+background-color:#7A991A;
+}
+
+label
+{
+width: 6em;
+float: left;
+text-align: right;
+margin-right: 0.5em;
+display: block
+}
+
+.submit input
+{
+margin-left: 4.5em;
+}
+input
+{
+color: #781351;
+background: #adff8c;
+border: 1px solid #1a4509
+}
+
+.submit input
+{
+color: #000;
+background: #ffa20f;
+border: 2px outset #d7b9c9
+}
+
+fieldset
+{
+border: 1px solid #1a4509;
+margin: 10px;
+width: 25em
+}
+
+.transact_doctor fieldset
+{
+float:left;
+margin: 15px;
+border: 1px solid #1a4509;
+width: 27em
+}
+
+.transact_doctor_comp fieldset
+{
+float:right;
+margin: 15px;
+border: 1px solid #1a4509;
+width: 27em
+}
+
+div.newinventario
+{
+    float:left;
+    margin: 0px;
+    width: 450px
+}
+
+div.consulta_fact
+{
+    float:left;
+    clear:left;
+    margin:0px;
+}
+
+div.consulta_sn
+{
+    float:left;
+    clear:left;
+    margin:0px;
+}
+
+div.detalle_fact
+{
+    float:top;
+    margin:15px;
+}
+
+div.factlist
+{
+    float: right;
+    margin:15px;
+    margin-right:100px;
+}
+
+div.maximainventariolist
+{
+    float: right;
+}
+
+div.inventariolist
+{
+    float: right;
+}
+
+div.dotbox
+{
+    margin: 5px;
+    padding: 3px;
+    border: 1px dotted #1a4509;
+}
+
+div.maxdotbox
+{
+    margin: 5px;
+    padding: 1px;
+    border: 1px dotted #1aff09;
+}
+
+span.cantidad
+{
+    float:right;
+}
+
+span.center
+{
+    float:center;
+}
+
+.reftransact fieldset
+{
+float:top;
+margin-left: 15px;
+margin-right: 100px;
+margin-bottom: 30px;
+border: 1px solid #1a4509;
+width: 600px;
+}    
+
+.translist fieldset
+{
+float:right;
+margin-left: 100px;
+border: 1px solid #1a4509;
+width: 600px
+}
+
+.detalle_fact fieldset
+{
+    width: 800px;
+}
+
+.detalle_sn fieldset
+{
+    width: 800px;
+}
+
+legend
+{
+color: #fff;
+background: #1a4509;
+border: 1px solid #1a4509;
+padding: 2px 6px
+}
+
+div.comprobante
+{
+float: center;
+margin: 100px;
+padding: 30px;
+border: 1px dotted #1a4509;
+width: 600px;
+}
+
+div.footer
+{
+    padding-top: 20px;
+    clear: both;
+}

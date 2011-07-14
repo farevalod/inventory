@@ -1,0 +1,43 @@
+INSERT INTO `bodyworx`.`inventario` (
+`ref` ,
+`lot` ,
+`sn` ,
+`factura` ,
+`fecha`
+)
+VALUES (
+'XXX-696', '1000000', '1000000-01', '2', CURDATE( )
+);
+
+INSERT INTO `bodyworx`.`doctores` (
+`id` ,
+`nombre` ,
+`apellido` ,
+`clinica` ,
+`fecha nac`
+)
+VALUES (
+NULL , 'juan', 'pauta', 'clinica alemana', '2011-07-08'
+);
+
+INSERT INTO `bodyworx`.`transact` (
+`transact_id` ,
+`doctor` ,
+`sn` ,
+`nombre paciente` ,
+`fecha trans` ,
+`completa`
+)
+VALUES (
+NULL , '999', '100000001-01', 'juan paciente', 
+
+INSERT INTO `bodyworx`.`productos` (
+`id` ,
+`code` ,
+`type` ,
+`base` ,
+`proy` ,
+`vol`
+)
+VALUES (
+NULL , 'xxx-999', 'demi', '3.2', '4', '100'
