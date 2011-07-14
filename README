@@ -1,0 +1,2 @@
+Default SQL config is 'root', 'pass'
+SQL tables have to be created and populated with product data, because transactions depend on the inventory table.
