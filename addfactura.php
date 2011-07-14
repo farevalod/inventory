@@ -1,6 +1,6 @@
 <?php
 	session_start();
-    $conn = mysql_connect('localhost:3306','root','pass') or die("Fallo la conexion.");
+    $conn = mysql_connect('localhost:3306','user','pwpwpw') or die("Fallo la conexion.");
     if (!$conn) 
     {
         echo "Unable to connect to DB: " . mysql_error();

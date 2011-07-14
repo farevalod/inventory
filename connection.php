@@ -1,4 +1,4 @@
 <?php
     echo 'Conectando servidor sql...';
-    $conn = mysql_connect('localhost:3306','root','pass') or die("Fallo la conexion.");
+    $conn = mysql_connect('localhost:3306','user','pwpwpw') or die("Fallo la conexion.");
 ?>
